@@ -1,0 +1,28 @@
+echo "# aventura" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chsthe/aventura.git
+git push -u origin main
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Interativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="aventura">
+        <h1>Aventura Interativa</h1>
+        <p id="texto"></p>
+        <div id="opcoes">
+            <button id="opcao1"></button>
+            <button id="opcao2"></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
